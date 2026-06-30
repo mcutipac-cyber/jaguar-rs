@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779291573943,
+  "lastUpdate": 1782848846430,
   "repoUrl": "https://github.com/JeroenGar/jagua-rs",
   "entries": {
     "Performance Tracker": [
@@ -5403,6 +5403,84 @@ window.BENCHMARK_DATA = {
             "name": "cde_detect_1k/5",
             "value": 218211,
             "range": "± 3064",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d4046d5cd7395c2ed630bf9001fcce406a2df8ab",
+          "message": "Update itertools requirement from 0.14 to 0.15 (#84)\n\n* Update itertools requirement from 0.14 to 0.15\n\nUpdates the requirements on [itertools](https://github.com/rust-itertools/itertools) to permit the latest version.\n- [Changelog](https://github.com/rust-itertools/itertools/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/rust-itertools/itertools/compare/v0.14.0...v0.15.0)\n\n---\nupdated-dependencies:\n- dependency-name: itertools\n  dependency-version: 0.15.0\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\n\n* Replace deprecated tuple_combinations with array_combinations::<2>()\n\n---------\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>",
+          "timestamp": "2026-06-30T21:43:55+02:00",
+          "tree_id": "701a15851cdb2a2f25447796fd2f0798587bd17d",
+          "url": "https://github.com/JeroenGar/jagua-rs/commit/d4046d5cd7395c2ed630bf9001fcce406a2df8ab"
+        },
+        "date": 1782848842278,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "cde_collect_1k/3",
+            "value": 2397304,
+            "range": "± 130143",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "cde_collect_1k/4",
+            "value": 2721037,
+            "range": "± 147933",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "cde_collect_1k/5",
+            "value": 2741225,
+            "range": "± 168041",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "cde_update_1k/3",
+            "value": 2331421,
+            "range": "± 35430",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "cde_update_1k/4",
+            "value": 4057792,
+            "range": "± 82018",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "cde_update_1k/5",
+            "value": 7887759,
+            "range": "± 110282",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "cde_detect_1k/3",
+            "value": 265185,
+            "range": "± 7516",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "cde_detect_1k/4",
+            "value": 245061,
+            "range": "± 10604",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "cde_detect_1k/5",
+            "value": 246904,
+            "range": "± 3301",
             "unit": "ns/iter"
           }
         ]
